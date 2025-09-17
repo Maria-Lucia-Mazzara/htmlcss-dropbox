@@ -11,7 +11,9 @@ body {
 
 :root {
     --color-header: #ffffff;
-
+    --color-tex: #1f1f1f;
+    --color-btn: #0061fe;
+    --color-jambo: #b4d0e6;
 }
 
 .d-flex {
@@ -63,7 +65,7 @@ body {
     background-color: blanchedalmond;
     width: 200px;
     height: 30px;
-    
+
 }
 
 .debug .btn {
@@ -72,43 +74,56 @@ body {
     padding-top: 5px;
     height: 30px;
     margin-left: 5px;
+    color: white;
 }
 
 
-.searchbar{
-    justify-content:space-between;
-    
+.searchbar {
+    justify-content: space-between;
+
 }
+/* fine header*/
+
 .debug h1 {
     background-color: black;
     height: 100px;
-    
+
 }
 
 #jumbotron {
-justify-content: space-between;
-align-items: center;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
+.work{
+width: 40%;
+}
 
+.debug .texwork {
+    background-color: black;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.btnprova {
+    background-color: var(--color-btn);
+    color: white;
+}
+
+.debug .affermazione {
+background-color: black;
+width: auto;
+height: 50px;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.fa-solid {
+ font-size: 30px;
+}
 .debug .imgservice {
     background-color: black;
     width: 60%;
     height: 300px;
 }
-
-.debug .texwork {
-    background-color: black;
-    width: auto;
-    height: 100px;
-    margin-bottom: 10px;
-}
-
-.btnprova {
-    
-}
-
-
-
-
+/* .debug jumbotron*/
