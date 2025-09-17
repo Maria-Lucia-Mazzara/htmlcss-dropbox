@@ -18,6 +18,10 @@ body {
     display: flex;
 }
 
+.conteiner {
+    width: 100%;
+}
+
 
 .debug * {
     border: 1px dashed black;
@@ -66,16 +70,9 @@ body {
     height: 30px;
 }
 
-.left {
-    display: inline-block;
-}
-
-.right {
-    display: inline-block;
-}
 
 .searchbar{
-    justify-content: center;
+    justify-content:space-between;
     
 }
 
