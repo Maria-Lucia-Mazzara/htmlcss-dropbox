@@ -17,15 +17,15 @@ body {
 .d-flex {
     display: flex;
 }
- 
+
 
 .debug * {
     border: 1px dashed black;
 
 }
 
-.debug .bar{
-    background-color:aquamarine;
+.debug .bar {
+    background-color: aquamarine;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5px;
@@ -36,35 +36,50 @@ body {
     width: 70px;
     height: 30px;
 }
-.searchbar {
 
+.debug .barleft {
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 30px;
 
-    
 }
 
 .debug .barleft {
     background-color: blanchedalmond;
     width: 200px;
     height: 30px;
-    justify-content: flex-start;
-
 
 
 }
+
 .debug .barright {
     background-color: blanchedalmond;
     width: 200px;
     height: 30px;
-    justify-content: flex-end;
-
+    
 }
 
 .debug .btn {
     text-decoration: none;
-   background-color: #0061fe; 
-   padding-top: 5px;
-   height: 30px;
+    background-color: #0061fe;
+    padding-top: 5px;
+    height: 30px;
 }
 
+.left {
+    display: inline-block;
+}
 
+.right {
+    display: inline-block;
+}
 
+.searchbar{
+    justify-content: center;
+    
+}
+
+nav a {
+    gap: 50px;
+
+}
