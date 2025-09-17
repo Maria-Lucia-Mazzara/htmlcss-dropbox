@@ -1,4 +1,33 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
+
+body {
+    min-width: 1200px;
+}
+
+
+.debug * {
+border: 1px dashed black;
+
+}
+
+
+.debug #logo {
+    background-color: brown;
+    width: 140px;
+    height: 30px;
+}
+
+.debug #barleft {
+    background-color: brown;
+    width: 370px;
+    height: 30px;
+
+}
+
+
+
