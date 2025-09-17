@@ -178,24 +178,26 @@ h1 {
     
 }
 
+.partwork{
+    width: 100%;
+}
 
 .texwork {
-    width: 40%;
     margin-bottom: 20px;
+    font-size: 25px;
 }
 
 .btnprova {
-    width: 40%;
     padding: 5px;
     background-color: var(--color-btn);
     color: white;
 }
 
 .affermazione {
-width: 40%;
 margin-top: 20px;
 margin-bottom: 20px;
 }
+
 .fa-solid {
  font-size: 30px;
 }
