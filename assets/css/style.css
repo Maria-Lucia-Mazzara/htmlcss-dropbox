@@ -22,6 +22,14 @@ body {
     width: 100%;
 }
 
+.conteiner-sml {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+
 
 .debug * {
     border: 1px dashed black;
@@ -34,26 +42,20 @@ body {
     padding-bottom: 20px;
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 5px;
 }
 
 .debug .logo {
     background-color: blanchedalmond;
     width: 70px;
     height: 30px;
+    margin-right: 5px;
 }
 
 .debug .barleft {
     background-color: blanchedalmond;
     width: 200px;
     height: 30px;
-
-}
-
-.debug .barleft {
-    background-color: blanchedalmond;
-    width: 200px;
-    height: 30px;
-
 
 }
 
@@ -69,6 +71,7 @@ body {
     background-color: #0061fe;
     padding-top: 5px;
     height: 30px;
+    margin-left: 5px;
 }
 
 
@@ -76,8 +79,36 @@ body {
     justify-content:space-between;
     
 }
+.debug h1 {
+    background-color: black;
+    height: 100px;
+    
+}
 
-nav a {
-    gap: 50px;
+#jumbotron {
+justify-content: space-between;
+align-items: center;
+
 
 }
+
+.debug .imgservice {
+    background-color: black;
+    width: 60%;
+    height: 300px;
+}
+
+.debug .texwork {
+    background-color: black;
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.btnprova {
+    
+}
+
+
+
+
