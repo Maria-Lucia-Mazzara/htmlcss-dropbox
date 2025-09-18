@@ -402,3 +402,16 @@ h2 {
     width: 100%;
 }
 /* fine tabella foto*/
+
+/* fine main*/
+
+.tex-finemain {
+padding-top: 100px;
+    font-size: 40px;
+    width: 50%;
+}
+
+.mini-tex-main {
+   padding-top: 100px;
+   padding-bottom: 200px;
+}
