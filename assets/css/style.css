@@ -20,12 +20,6 @@ body {
     display: flex;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
 .conteiner {
     width: 100%;
 }
@@ -255,3 +249,21 @@ h2 {
 #cashyear {
     margin-left: 50px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-professional {
+    
+    border: 2px solid black;
+    width: calc(100% / 4);
+}
+
+.card-user {
+    flex-direction: column;
+    gap: 10px;
+}
+
