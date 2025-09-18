@@ -256,7 +256,8 @@ h2 {
 }
 
 .card {
-    border: 1px solid black;
+
+    padding-top: 30px;
 }
 
 
@@ -266,16 +267,13 @@ h2 {
     gap: 10px;
 }
 
+
 .celsmol {
     width: calc(100% / 3 - 10px);
     flex-direction: column;
     gap: 10px;
     
 
-}
-
-.celbig {
-    width: 100%;
 }
 
 .colum-title {
@@ -292,6 +290,7 @@ h2 {
     flex-direction: column;
     gap: 20px;
     padding-left: 10px;
+    border: 1px solid black;
     
 
 }
@@ -309,9 +308,34 @@ h2 {
 margin: 50px;
 
 }
+
 .colum-footer {
     flex-direction: column;
     gap: 20px;
 
 }
+
+.colum-title .colum-main .colum-footer {
+    border: 1px solid black;
+}
+
+.celbig {
+    width: 100%;
+    border: 1px solid black;
+    flex-direction: column;
+    
+}
+
+.colum-title {
+    text-align: center;
+    
+}
+
+.bigbox {
+
+    padding-top: 20px;
+
+}
+
+
 
