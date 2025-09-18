@@ -232,6 +232,7 @@ h1 {
     width: 200px;
     height: 30px;
 }
+
 .debug .cel {
     background-color: red;
     width: calc(100% / 3);
@@ -271,7 +272,7 @@ h2 {
 .celsmol {
     width: calc(100% / 3 - 10px);
     flex-direction: column;
-    
+
 
 }
 
@@ -290,7 +291,7 @@ h2 {
     gap: 20px;
     padding-left: 10px;
     border: 1px solid black;
-    
+
 
 }
 
@@ -304,7 +305,7 @@ h2 {
 
 
 .btn-main {
-margin: 50px;
+    margin: 50px;
 
 }
 
@@ -322,12 +323,12 @@ margin: 50px;
     width: 100%;
     border: 1px solid black;
     flex-direction: column;
-    
+
 }
 
 .colum-title {
     text-align: center;
-    
+
 }
 
 .bigbox {
@@ -337,13 +338,17 @@ margin: 50px;
 }
 
 /* inizio terza sezione main*/
-.contatto{
-margin-top: 20px;
-margin-bottom: 20px;
+.contatto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+
 }
 
 .imgservice {
     width: 60%;
+
+
 }
 
 .imgservice img {
@@ -351,16 +356,14 @@ margin-bottom: 20px;
 }
 
 
-.partwork {
-    width: 100%;
-}
+
 
 .texwork {
     padding-left: 30px;
-    font-size: 25px;
+    font-size: 50px;
 }
 
-.btncontatto{
+.btncontatto {
     margin-left: 30px;
     padding: 5px;
     background-color: white;
@@ -376,7 +379,3 @@ margin-bottom: 20px;
 .fa-solid {
     font-size: 30px;
 }
-
-
-
-
