@@ -20,6 +20,12 @@ body {
     display: flex;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 .conteiner {
     width: 100%;
 }
@@ -29,10 +35,12 @@ body {
     margin: 0 auto;
 
 }
+
 .debug * {
     border: 1px dashed black;
 
 }
+
 /* /general*/
 
 /*inizio header debug*/
@@ -101,7 +109,7 @@ body {
     padding-top: 5px;
     color: var(--color-tex);
     gap: 30px;
-    
+
 }
 
 .barright {
@@ -119,6 +127,7 @@ body {
     margin-left: 20px;
     color: white;
 }
+
 /* fine header*/
 
 /* inizio jumb debug*/
@@ -134,8 +143,9 @@ body {
 
 
 }
-.work{
-width: 40%;
+
+.work {
+    width: 40%;
 }
 
 .debug .texwork {
@@ -151,15 +161,17 @@ width: 40%;
 }
 
 .debug .affermazione {
-background-color: black;
-width: auto;
-height: 50px;
-margin-top: 10px;
-margin-bottom: 5px;
+    background-color: black;
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
+
 .fa-solid {
- font-size: 30px;
+    font-size: 30px;
 }
+
 .debug .imgservice {
     background-color: black;
     width: 60%;
@@ -172,13 +184,14 @@ h1 {
     margin-bottom: 30px;
 
 }
+
 .jumbotron {
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.partwork{
+.partwork {
     width: 100%;
 }
 
@@ -194,12 +207,12 @@ h1 {
 }
 
 .affermazione {
-margin-top: 20px;
-margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .fa-solid {
- font-size: 30px;
+    font-size: 30px;
 }
 
 .imgservice {
@@ -210,3 +223,35 @@ margin-bottom: 20px;
     width: 100%;
 }
 
+/*fine jumbotron*/
+
+/* inizio prima tabella debug*/
+
+.debug h2 {
+    background-color: red;
+    width: 300px;
+    height: 60px;
+}
+
+.debug .btn-fatturazione {
+    background-color: red;
+    width: 200px;
+    height: 30px;
+}
+
+.debug .card {
+    background-color: red;
+    width: 100%;
+    height: 400px;
+}
+
+/* fine debug section 1*/
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cashyear {
+    margin-left: 50px;
+}
