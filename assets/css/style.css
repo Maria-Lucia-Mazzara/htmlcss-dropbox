@@ -255,14 +255,22 @@ h2 {
     margin-left: 50px;
 }
 
+.card {
+    border: 1px solid black;
+}
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .celsmol {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
     flex-direction: column;
+    gap: 10px;
+    
 
 }
 
@@ -270,6 +278,40 @@ h2 {
     width: 100%;
 }
 
+.colum-title {
+    padding: 10px;
+    border: 1px solid black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.colum-main {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 10px;
+    
+
+}
+
+.tex-grey {
+    color: grey;
+}
+
+.fa-check {
+    color: var(--color-btn);
+}
 
 
+.btn-main {
+margin: 50px;
+
+}
+.colum-footer {
+    flex-direction: column;
+    gap: 20px;
+
+}
 
