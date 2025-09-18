@@ -345,20 +345,20 @@ h2 {
 
 }
 
-.imgservice {
+.imgman {
     width: 60%;
 
 
 }
 
-.imgservice img {
+.imgman img {
     width: 100%;
 }
 
 
 
 
-.texwork {
+.texdrop {
     padding-left: 30px;
     font-size: 50px;
 }
@@ -371,7 +371,7 @@ h2 {
     color: grey;
 }
 
-.affermazione {
+.affermazione-partner {
     padding-left: 30px;
     margin-bottom: 20px;
 }
