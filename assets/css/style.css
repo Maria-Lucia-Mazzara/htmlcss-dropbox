@@ -271,7 +271,6 @@ h2 {
 .celsmol {
     width: calc(100% / 3 - 10px);
     flex-direction: column;
-    gap: 10px;
     
 
 }
@@ -336,6 +335,43 @@ margin: 50px;
     padding-top: 20px;
 
 }
+
+/* inizio terza sezione main*/
+.imgservice {
+    width: 60%;
+}
+
+.imgservice img {
+    width: 100%;
+}
+
+
+.partwork {
+    width: 100%;
+}
+
+.texwork {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.btncontatto{
+    margin-left: 30px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+
+.affermazione {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
 
 
 
